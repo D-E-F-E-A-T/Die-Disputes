@@ -5,12 +5,12 @@ $(document).ready(function(){
 		
 function dice(){
 	var randomNumber1 = Math.floor(Math.random()*6) + 1;
-	var randomDiceImage = "images/1-dice-" + randomNumber1 + ".png";
+	var randomDiceImage = "1-dice-" + randomNumber1 + ".png";
 	var image1 = document.getElementsByClassName("dimg")[0];
 	image1.setAttribute("src", randomDiceImage);
 	
 	var randomNumber2 = Math.floor(Math.random()*6) + 1;
-	var randomDiceImage = "images/2-dice-" + randomNumber2 + ".png";
+	var randomDiceImage = "2-dice-" + randomNumber2 + ".png";
 	var image1 = document.getElementsByClassName("dimg")[1];
 	image1.setAttribute("src", randomDiceImage);
 	
@@ -31,12 +31,12 @@ function dice(){
 		 
 function spinner(){
 	var randomNumber3 = Math.floor(Math.random()*6) + 1;
-	var randomSpinnerImage = "images/1-spinner-" + randomNumber3 + ".png";
+	var randomSpinnerImage = "1-spinner-" + randomNumber3 + ".png";
 	var image2 = document.getElementsByClassName("simg")[0];
 	image2.setAttribute("src", randomSpinnerImage);
 			
 	var randomNumber4 = Math.floor(Math.random()*6) + 1;
-	var randomSpinnerImage = "images/2-spinner-" + randomNumber4 + ".png";
+	var randomSpinnerImage = "2-spinner-" + randomNumber4 + ".png";
 	var image2 = document.getElementsByClassName("simg")[1];
 	image2.setAttribute("src", randomSpinnerImage);
 		
