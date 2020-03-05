@@ -1,0 +1,105 @@
+body{
+	background-image: url(images/wooden-table.png);
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'calibri', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.roll {
+  margin: 30px;
+  font-family: 'calibri', cursive;
+  text-shadow: 5px 0 #FFFFFF;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+#container-1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  visibility: hidden;
+  position: absolute;
+  bottom: 50px;
+  left: 152px;
+}
+
+#dice-1{
+  width: 256px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+#dice-2{
+  width: 256px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+#container-2 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    bottom: 50px;
+    left: 152px;
+}
+
+#spinner-1{
+	width: 275px;
+    text-align: center;
+    display: inline-block;
+}
+
+#spinner-2{
+	width: 275px;
+    text-align: center;
+    display: inline-block;
+}
+
+.me{
+  margin-top: 5%;
+  font-family: 'calibri', cursive;
+  color: #4ECCA3;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+}
+
+
+
+<!---The Modal--->
+
+.modal-body{
+	height: 200px;
+}
+
+.bton{
+    width: 50%;
+    position: absolute;
+    right: 242px;
+    bottom: 15px;	
+}
+
+.cust{
+	position: fixed;
+    top: 86%;
+    left: 84%;
+}
+
+.close{
+	width: 50%;
+}
+
+.modal-footer{
+	height: 60px;
+}
